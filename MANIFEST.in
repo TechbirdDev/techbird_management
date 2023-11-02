@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include techbird_management *.css
+recursive-include techbird_management *.csv
+recursive-include techbird_management *.html
+recursive-include techbird_management *.ico
+recursive-include techbird_management *.js
+recursive-include techbird_management *.json
+recursive-include techbird_management *.md
+recursive-include techbird_management *.png
+recursive-include techbird_management *.py
+recursive-include techbird_management *.svg
+recursive-include techbird_management *.txt
+recursive-exclude techbird_management *.pyc
