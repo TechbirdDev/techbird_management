@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-14 15:34:48.209068",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "column_break_sbb3h",
+  "last_name",
+  "section_break_5orgf",
+  "company_email",
+  "column_break_hwtcn",
+  "phone_number",
+  "section_break_wobos",
+  "company_name",
+  "message",
+  "test_captcha2"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_sbb3h",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Last Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_5orgf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company_email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Company Email",
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_hwtcn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "in_list_view": 1,
+   "label": "Phone Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_wobos",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "message",
+   "fieldtype": "Small Text",
+   "label": "Message"
+  },
+  {
+   "fieldname": "test_captcha2",
+   "fieldtype": "HTML",
+   "label": "test _captcha2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-02 16:48:21.710660",
+ "modified_by": "Administrator",
+ "module": "Techbird Management",
+ "name": "Contact Us",
+ "name_case": "Title Case",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "first_name"
+}
